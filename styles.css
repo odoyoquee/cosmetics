@@ -1,3 +1,132 @@
+#log{
+    float: left;
+    padding-top: inherit;
+}
+
 h1{
     color:blue;
+    text-transform: uppercase;
+    text-decoration: underline;
 }
+img{
+    height: 200;
+    width: 20%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    float:right;
+}
+body{
+    background-image: url('./img/andriyko-podilnyk-7rA3gk1hZP0-unsplash.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    color: whitesmoke;
+    font-size: 20px;
+    line-height: 2em;
+    
+}
+
+nav{
+    text-align: right;
+    background-color: limegreen;
+    opacity: 0.5;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+nav>ul>li>a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 18px;
+
+}
+
+
+ul>li{
+    display: inline-block;
+    
+}
+
+nav>ul>li>a:hover{
+    background-color: lightseagreen;
+    border-radius: 10px;
+    opacity: 0.6;
+}
+h2 {
+    text-align: left;
+    font-family: 'Times New Roman', cursive;
+    color: orangered;
+    text-decoration: underline;
+    text-transform: uppercase;
+
+  }
+  h3{
+    font-family: 'Courier New', 'Sans-Serif';
+    color:blueviolet;
+    font-size: 28px;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+  }
+  h4{
+      font-family: 'Times New Roman', Times, serif;
+      color: hotpink;
+      font-size:30px;
+      text-align: center;
+      text-transform: uppercase;
+      text-decoration: underline;
+      position: relative;
+  }
+  h5{
+      font-size: x-large;
+      color:olivedrab;
+  }
+
+#cala{
+    color: orange;
+}
+#review{
+    color:yellowgreen;
+}
+ol>li{
+    font-size: 20px;
+}
+table{
+    padding:5px;
+    border:1px black;
+    border-collapse:collapse;
+    background-color: chartreuse;
+    opacity: 0.4;
+    color: black;
+    border-radius: 10px;
+  }
+  tr{
+    padding:5px;
+    border:1px solid black;
+    border-collapse:colapse;
+    border-radius: 10px;
+  }
+  td{
+    padding:5px;
+    border:1px solid black;
+    border-collapse:collapse;
+  }
+
+
+  footer{
+      text-align: center;
+  }
+
+#style{
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: mediumspringgreen;
+}
+
+video {
+    border: 5px groove lime;
+    padding: 0;
+    width: 32%;
+    height: 200px;
+    border-radius: 10px;
+ }
