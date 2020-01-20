@@ -1,6 +1,17 @@
 #log{
-    float: left;
-    padding-top: inherit;
+  text-align: left;
+  margin-top: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: xx-large;
+  float: left;
+  color: deeppink;
+  margin-left: 5px;
+}
+
+header{
+    justify-content: space-between;
 }
 
 h1{
@@ -30,7 +41,7 @@ nav{
     text-align: right;
     background-color: limegreen;
     opacity: 0.5;
-    padding: 7px;
+    padding: 0.5px;
     border-radius: 10px;
 }
 
@@ -115,6 +126,12 @@ table{
 
   footer{
       text-align: center;
+      background-color: limegreen;
+      opacity: 0.7;
+      width: 25%;
+      height: auto;
+      margin-left: 35%;
+      border-radius: 25px;
   }
 
 #style{
