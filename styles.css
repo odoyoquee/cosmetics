@@ -101,6 +101,7 @@ h2 {
 }
 ol>li{
     font-size: 20px;
+
 }
 table{
     padding:5px;
@@ -110,6 +111,8 @@ table{
     opacity: 0.4;
     color: black;
     border-radius: 10px;
+    width: 90%;
+    margin-left: 5%;
   }
   tr{
     padding:5px;
@@ -138,6 +141,7 @@ table{
     text-decoration: underline;
     text-transform: uppercase;
     color: mediumspringgreen;
+
 }
 
 video {
@@ -147,3 +151,34 @@ video {
     height: 200px;
     border-radius: 10px;
  }
+
+ #float{
+     float: left;
+    width: 49.5%;
+    height: auto;
+    border: black 1px solid;
+    line-height: 1em;
+    margin-bottom: 1px;
+    background-color: coral;
+    opacity: 0.5;
+    color: black;
+    border-radius: 8px;
+ }
+
+ #floatright{
+     float: right;
+     width: 50%;
+    height: auto;
+    border: maroon 1px solid;
+    line-height: 1.5;
+    margin-bottom: 3px;
+    background-color: coral;
+    opacity: 0.5;
+    color: black;
+    border-radius: 8px;
+ }
+
+ #center{
+     text-align: center;
+ }
+ 
