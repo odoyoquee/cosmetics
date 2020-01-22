@@ -1,3 +1,7 @@
+
+
+
+/*slideshow*/
 #log{
   text-align: left;
   margin-top: 18px;
@@ -11,6 +15,7 @@
 }
 
 header{
+    position: relative;
     justify-content: space-between;
 }
 

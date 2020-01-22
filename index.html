@@ -20,13 +20,93 @@
         </nav>
     </header>
     <div class="landing">
-        <p><span>Y</span>our Natural <span>B</span>ody Care <span>S</span>olution</p>
+        <p id="logo"><span>Y</span>our Natural <span>B</span>ody Care <span>S</span>olution</p>
         
 
     </div>
-    <div id="home">
-    <h1>Cosmetics made from herbs</h1>
-    <img src="https://labibioteca.com/wp-content/uploads/2017/10/Herbsberriesandflowers.jpg" height="200">
+   
+
+
+
+    <div id=home>
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="https://labibioteca.com/wp-content/uploads/2017/10/Herbsberriesandflowers.jpg" style="width:100%">
+              <div class="text">Caption Text</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="https://thscenter.com/blog/wp-content/uploads/2014/12/herbal+beauty+products.jpg" style="width:100%">
+              <div class="text">Caption Two</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="https://www.prlog.org/11843409-desert-spa-organic-product-line.jpg" style="width:100%">
+              <div class="text">Caption Three</div>
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+            
+            <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}    
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";  
+              }
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+            }
+            </script>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h1>Cosmettics made from herbs</h1>
+    <img src="htps://labibioteca.com/wp-content/uploads/2017/10/Herbsberriesandflowers.jpg" height="200">
     <img src="http://thscenter.com/blog/wp-content/uploads/2014/12/herbal+beauty+products.jpg" height="200">
     <img src="https://www.prlog.org/11843409-desert-spa-organic-product-line.jpg" height="200">
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0z4LpaLs9tKK5WUuIok-SKn10TvDRPnjKGFTgASkKZkWpjluI&s" height="200">
@@ -37,20 +117,8 @@
         <p>The concept of beauty and cosmetics dates back to ancient mankind and civilization. 
             Generally herbal cosmetics are also referred to as natural cosmetics.</p>
     </div>
-    <div id="herbal cosmetics">
-        <p>Herbal cosmetics are formulated, using different cosmetic ingredients to form the base in which one or more
-            herbal ingredients are used to cure various skin ailments. The name itself suggests that herbal cosmetics are natural
-            and free from all the harmful synthetic chemicals which otherwise may prove to be toxic to the skin. Compared to other
-            beauty products, natural cosmetics are safe to use.<br></br> Cosmeceuticals are cosmetic-pharmaceutical hybrid products
-            intended to improve the health and beauty of the skin by providing a specific result, ranging from acne-control and
-            anti-wrinkle effects, to sun protection. Cosmeceuticals have medicinal benefits which affect the biological functioning
-            of skin depending upon type of functional ingredients they contain. These are cosmetic products that are not just used
-            for beautification but for different skin ailments.<br></br> These products improve the functioning/texture of the skin by boosting
-            collagen growth by eradicating harmful effects of free radicals, maintains keratin structure in good condition and making
-            the skin healthier. There are numerous herbs available naturally having different uses in cosmetic preparations for
-            skincare, hair care and as antioxidants. The current review highlights importance of herbal cosmetics, the herbs used
-            in them and their advantages over the synthetic counterparts.</p>
-
+    <div id="herbal">
+        
     </div>
         <h2>Advantages of Herbal Cosmetics</h2>
         <ol>
